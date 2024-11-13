@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* add font family */
+body {
+    font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* css global */
+.container-1 {
+    max-width: 1260px;
+    margin: auto;
+
+}
+
+.header-top {
+    width: 100%;
+    height: 66px;
+    background-color: #f65d4e;
+}
+
+.header-top-wrap {
+    display: flex;
+}
+
+.logo {
+    width: 25%;
+    height: 66px;
+    display: flex;
+    align-items: center;
+}
+.logo a {
+    text-decoration: none; /* bo gach chan the a */
+}
+
+.logo a h1 {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase; /* viet hoa chu */
+}
+
+.search-main {
+    width: 45%;
+    height: 66px;
+    display: flex;
+    align-items: center;
+}
+
+.search-main input {
+    height: 46px;
+    border: none;
+    border-top-left-radius: 40px ;
+    border-bottom-left-radius: 40px ;
+    width: 100%;
+    padding: 0 20px;
+    outline: none; /* bỏ viền trong input khi click */
+}
+
+.search-main button {
+    width: 60px;
+    height: 46px;
+    background-color: #cf3424;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-top-right-radius: 40px ;
+    border-bottom-right-radius: 40px ;
+}
+
+
+.info-user {
+    width: 30%;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-user .book-map {
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 60%;
+}
+
+.info-user .book-map i {
+    color: white;
+    margin-right: 8px ;
+}
+
+.info-user .book-map p {
+    font-size: 14px;
+    color: white;
+    text-decoration: underline;
+}
+
+.icon-user {
+    display: flex;
+    height: 66px;
+    align-items: center;
+}
+
+.icon-user li {
+    list-style: none; /* bo dau cham mac dinh cua the li */
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 1px solid white;
+    position: relative;
+}
+
+.icon-user li:first-child {
+    /* chon phan tu con dau tien */
+    border-left: none;
+} 
+
+.icon-user li i {
+    color: white;
+    font-size: 18px;
+}
+
+.icon-user li span {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 13px;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+}
+
+/* Menu main */
+
+.menu-main {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: 2px solid #f2f2f2;
+}
+
+.container-2 {
+    width: 80%;
+    height: 64px;
+}
+
+.menu-main-wrap {
+    display: flex;
+}
+
+.khoang-trong {
+    width: 25%;
+    height: 64px;
+}
+
+.menu-list {
+    width: 50%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-list li {
+    list-style: none;
+    font-size: 15px;
+    position: relative;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-list .trang-chu a {
+    color: #f65d4e;
+}
+
+.menu-list li ul {
+    position: absolute;
+    top: 40px; 
+    width: 200px;
+    display: none;
+} 
+
+.menu-list li:hover ul {
+    display: block;
+}
+
+.menu-list li a i {
+    font-size: 10px;
+}
+
+.sach-trong-nuoc {
+    border: 2px solid #f2f2f2;
+}
+
+.sach-trong-nuoc li {
+    padding: 5px 0px 5px 15px ;
+    font-size: 15px;
+}
+
+.sach-trong-nuoc li a {
+    color: black;
+}
+
+.so-dien-thoai {
+    width: 25%;
+    height: 64px;
+    color: #f65d4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.so-dien-thoai a {
+    text-decoration: none;
+    color: #f65d4e;
+}
+
+
+
+
+
+
+
+
+/* Banner */
